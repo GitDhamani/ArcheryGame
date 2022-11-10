@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Images/Arrow.png</file>
+        <file>Images/BowEmpty.png</file>
+        <file>Images/BowLoaded.png</file>
+        <file>Images/Target.png</file>
+        <file>Images/UpArrow.png</file>
+        <file>Images/Banner.png</file>
+        <file>Images/GameOver.png</file>
+        <file>Images/Fire2.wav</file>
+        <file>Images/Bullseye3.wav</file>
+        <file>Images/Strike2.wav</file>
+        <file>Images/SoundOff.png</file>
+        <file>Images/SoundOn.png</file>
+        <file>Images/LastArrow.png</file>
+        <file>Images/NewBanner.png</file>
+        <file>Images/Speaker0.ico</file>
+        <file>Images/Speaker1.ico</file>
+        <file>Images/Speaker2.ico</file>
+        <file>Images/Speaker3.ico</file>
+        <file>Images/Speaker4.ico</file>
+        <file>Images/Title.png</file>
+        <file>Images/NewTitle.png</file>
+        <file>Images/Target2.png</file>
+    </qresource>
+</RCC>

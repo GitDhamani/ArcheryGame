@@ -1,5 +1,5 @@
 # ArcheryGame
-Archery Game, made in C++ and QT
+Archery Game, made in C++ and QT.
 
 You are given 20 arrows to start with and your aim is to achieve the highest score possible. Every time you hit the Bullseye you get 10 points and an extra arrow and so theoretically there is no upper limit on the score if you are particularly skilled. Every time you nearly hit the bullseye you are rewarded with 5 points and an "Excellent" Message. Arrows are fired due to left button mouse presses which are captured in the Graphics View.
 

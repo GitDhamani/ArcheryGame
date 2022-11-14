@@ -3,6 +3,8 @@ Archery Game, made in C++ and QT.
 
 You are given 20 arrows to start with and your aim is to achieve the highest score possible. Every time you hit the Bullseye you get 10 points and an extra arrow and so theoretically there is no upper limit on the score if you are particularly skilled. Every time you nearly hit the bullseye you are rewarded with 5 points and an "Excellent" Message. Arrows are fired due to left button mouse presses which are captured in the Graphics View.
 
+The Arrows, the Bow and the Target are all subclasses of QGraphicsPixMap. Once publically inherited, each arrow for example, becomes an independent object which automatically traverses across the screen. Its motion and opacity are all completely encapsulated within the class. If it crosses the bounds of the screen, it automatically destroys itself and frees allocated memory. If it collides with the target it becomes a child of it. In addition the motions of the arrow and bow are made smoother through the use of Animations which provide an easing curve that better describes linear projectile motion.
+
 The Bow moves up and down at a random choice of speeds to make the Game Difficult and the Target moves to a random position every time it is hit. The collision detection in Qt works very well and as soon as the arrow impacts the target it becomes a child of it and so sticks to it as it moves until the next arrow is fired.
 
 All assets on the screen are separate objects which are added to the Graphics Scene one by one. The scene is then set inside a Graphics View. A series of timers are then constructed and parented to provide the motion of the bow, target and arrows. Each arrow destroys itself when it goes out of range of whenever the next one is fired.
